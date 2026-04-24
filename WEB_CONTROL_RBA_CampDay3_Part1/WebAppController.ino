@@ -40,18 +40,17 @@ const char *htmlHomePage PROGMEM = R"HTMLHOMEPAGE(
       </tr>
       
       <tr>
-        <td ontouchstart='toggleCheckbox("TURN_LEFT_RM")' ontouchend='toggleCheckbox("H_OFF")'>TL_RBA</span></td>
+
          
       </tr>
-      
-      <tr>
-      	<td ontouchstart='toggleCheckbox("GRIP")' ontouchend='toggleCheckbox("H_OFF")'>GRIP</span></td>
+     <tr>
+
       	<td style="background-color:#95F5E7;box-shadow:none"><h4 style="color: DarkMagenta;text-align:center;" ontouchstart='toggleCheckbox("home")' ontouchend='toggleCheckbox("H_OFF")'>&#129470; HOME </h4></td>
-    	<td ontouchstart='toggleCheckbox("UPPER_G")' ontouchend='toggleCheckbox("H_OFF")'>UPPER_G</span></td> 
+
       </tr>
       
       <tr>
-        <td ontouchstart='toggleCheckbox("UN_GRIP")' ontouchend='toggleCheckbox("H_OFF")'>UN_GRIP</span></td>
+
         <td style="background-color:white;font-size:50px;box-shadow:none;height:10px;width:10px;">&#129302;</td>
         
       </tr>
@@ -84,7 +83,7 @@ const char *htmlHomePage PROGMEM = R"HTMLHOMEPAGE(
     window.onload = initWebSocket;
       document.getElementById("mainTable").addEventListener("touchend", function(event)       {
         event.preventDefault()
-      });
+     });
 
     </script>
   </body>
